@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title_version">微话助手 v%1$s</string>
+    <string name="app_name">微话助手</string>
+    <string name="xposed_description">结合多条连续聊天记录做上下文分析，给出语义解读、真实意图与回复建议；可选回复一键填入输入框。消息片段发送至你登录的 WorkBuddy，内容仅供你自行决定是否发送。</string>
+
+    <string name="status_framework">Xposed 框架</string>
+    <string name="status_wechat">微信进程状态</string>
+    <string name="section_switch">功能开关</string>
+    <string name="section_api">模型接口</string>
+    <string name="section_debug">调试</string>
+
+    <string name="label_enabled">启用自动分析</string>
+    <string name="label_explore">探索模式（定位 hook 点）</string>
+    <string name="label_show_badge">在气泡下方显示分析卡片</string>
+    <string name="label_api_key">API Key</string>
+    <string name="label_api_base">接口地址</string>
+    <string name="label_api_model">模型名</string>
+    <string name="label_log">查看运行日志</string>
+    <string name="label_clear_log">清空日志</string>
+
+    <string name="hint_api_base">https://copilot.tencent.com</string>
+    <string name="hint_api_model">default-model</string>
+
+    <string name="empty_log">还没有日志。装好模块重启微信，收到消息后这里会有记录。</string>
+
+    <string name="copyright_owner">泓创</string>
+    <string name="copyright_contact_wechat">longhong2021</string>
+    <string name="copyright_contact_email">1129738201@qq.com</string>
+</resources>

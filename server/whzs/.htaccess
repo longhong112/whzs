@@ -1,0 +1,13 @@
+<IfModule mod_authz_core.c>
+    <FilesMatch "^(config|lib|schema)\.php$">
+        Require all denied
+    </FilesMatch>
+</IfModule>
+<IfModule !mod_authz_core.c>
+    <FilesMatch "^(config|lib|schema)\.php$">
+        Order allow,deny
+        Deny from all
+    </FilesMatch>
+</IfModule>
+
+RedirectMatch 404 (?i)/whzs/keys/
